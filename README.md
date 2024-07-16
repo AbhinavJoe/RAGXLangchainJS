@@ -42,4 +42,4 @@ https://github.com/user-attachments/assets/e505d8d5-4719-454d-a025-41ac74f3ad9a
 Contributions to the project are welcome! Please create Pull Requests, or submit issues to suggest changes to the repository, or report bugs.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

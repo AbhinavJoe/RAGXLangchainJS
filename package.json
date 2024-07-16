@@ -1,0 +1,21 @@
+{
+  "name": "multi-doc-rag-using-javascript",
+  "version": "1.0.0",
+  "description": "RAG Application made using JavaScript and LangChainJS to query Multiple Docs and recieve answers from LLM",
+  "main": "main.js",
+  "type": "module",
+  "dependencies": {
+    "@langchain/community": "^0.2.4",
+    "chromadb": "^1.8.1",
+    "fs": "^0.0.1-security",
+    "langchain": "^0.2.5",
+    "ollama": "^0.5.1",
+    "path": "^0.12.7",
+    "pdf-parse-fork": "^1.2.0"
+  },
+  "scripts": {
+    "start": "node ./utils/textExtraction.cjs & node ./utils/loadText.js & node ./main.js"
+  },
+  "author": "Abhinav Joshi",
+  "license": "ISC"
+}
